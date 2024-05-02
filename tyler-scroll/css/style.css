@@ -1,0 +1,150 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #f7f7f7;
+  }
+
+body {
+    font: 11px sans-serif;
+    background-color: #ffffff;
+    position: relative; /* Add position relative */
+}
+
+/* Table styling */
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td {
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg th{ 
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-0pky{
+    border-color:inherit;
+    text-align:left;
+    vertical-align:top;
+}
+.tg .tg-sxqf{
+    border-color:inherit;
+    font-family:inherit;
+    text-align:left;
+    vertical-align:top;
+}
+.tg .tg-0lax{
+    text-align:left;
+    vertical-align:top;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #F9F5F2;
+  }
+  
+  .page {
+    margin: 2rem auto;
+    max-width: 50rem;
+  }
+  
+  .container {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  
+  #vis {
+    position: fixed;
+    width: 400px;
+  }
+  
+  #prose {
+    margin-left: 400px;
+  }
+  #prose .step {
+    height: 500px;
+  }
+  
+  .count {
+    padding: 0px 4px;
+    background: #efe9e9;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 0 4px;
+  }
+  
+  .step {
+    font-size: 1.2rem;
+  }
+  
+  .chart-label {
+    font-size: .7rem;
+  }
+        
+/* Button Style */
+.buttons {
+  position: absolute; /* Position buttons absolutely */
+  top: 10px; /* Adjust top position */
+  left: 50%; /* Align buttons in the center horizontally */
+  transform: translateX(-50%); /* Center buttons */
+}
+
+.buttons button {
+  padding: 10px 15px;
+  background-color: #D42121;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0F1012;
+}
+
+/* Tooltip Style */
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+/* Adjust the map position */
+svg {
+  margin-top: 50px; /* Add space at the top */
+}
+
+/* Zoom buttons style */
+.zoom-buttons {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+
+.zoom-buttons button {
+  padding: 5px 10px;
+  background-color: #D42121;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.zoom-buttons button:hover {
+  background-color: #0F1012;
+}
